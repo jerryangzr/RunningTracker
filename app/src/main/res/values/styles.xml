@@ -1,0 +1,54 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#D2FBFBFC</item>
+        <item name="titleColor">#090909</item>
+        <item name="goButtonColor">#A1F13E3E</item>
+        <item name="historyButtonColor">#A9C5DDE6</item>
+        <item name="sortButtonColor">#6A997C95</item>
+        <item name="runImage">@drawable/run_dark</item>
+        <item name="movementBackgroundColor">#94EBE4E4</item>
+        <item name="movementTitleColor">#5754ABF0</item>
+        <item name="recordDistanceColor">#C35A5B5C</item>
+        <item name="evaluationColor">#E8B11C26</item>
+        <item name="chipBackgroundColor">#EDBBBBBD</item>
+        <item name="chipStrokeColor">#D80606</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <!-- Dark Mode theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#EE1F1E1E</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#97424242</item>
+        <item name="goButtonColor">#7E3B97DD</item>
+        <item name="historyButtonColor">#7AD1810B</item>
+        <item name="sortButtonColor">#7AD1810B</item>
+        <item name="titleColor">#ffffff</item>
+        <item name="runImage">@drawable/run</item>
+        <item name="movementBackgroundColor">#AE252525</item>
+        <item name="movementTitleColor">#9C1C67AA</item>
+        <item name="recordDistanceColor">#F5DB7D05</item>
+        <item name="evaluationColor">#9FAF3C17</item>
+        <item name="chipBackgroundColor">#BEC47911</item>
+        <item name="chipStrokeColor">#610202</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="ChipTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

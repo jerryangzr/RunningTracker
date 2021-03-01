@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="backgroundColor" format="color" />
+        <attr name="goButtonColor" format="color" />
+        <attr name="historyButtonColor" format="color" />
+        <attr name="sortButtonColor" format="color" />
+        <attr name="titleColor" format="color" />
+        <attr name="runImage" format="reference"/>
+        <attr name="movementBackgroundColor" format="color"/>
+        <attr name="movementTitleColor" format="color"/>
+        <attr name="recordDistanceColor" format="color"/>
+        <attr name="evaluationColor" format="color"/>
+        <attr name="chipBackgroundColor" format="color"/>
+        <attr name="chipStrokeColor" format="color"/>
+        <attr name="AppThemeName" format="string"/>
+    </declare-styleable>
+</resources>

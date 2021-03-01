@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RunningTracker</string>
+    <string name="title_activity_tracking">Map</string>
+    <string name="google_directions_key">AIzaSyBVwIr1nFPB_4zT-KSLaO1bt_PKLfZpPbo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="AppThemeName">DarkTheme</string>
+</resources>

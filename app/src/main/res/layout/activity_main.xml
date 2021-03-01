@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundColor">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Start Your Workout"
+        android:textColor="?attr/titleColor"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/workoutImg"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="?attr/runImage"
+        android:scaleType="centerInside"/>
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:onClick="onClickExercise"
+        android:text="Go"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/go_button"/>
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:onClick="onClickRecord"
+        android:text="History"
+        android:textSize="16sp"
+        android:textColor="?attr/titleColor"
+        android:textAllCaps="false"
+        android:background="@drawable/history_button"/>
+
+    <Switch
+        android:id="@+id/btnSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Dark Mode"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#BC1B1212"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

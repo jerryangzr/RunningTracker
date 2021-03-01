@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor">
+
+    <TextView
+        android:id="@+id/record_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Record"
+        android:background="?attr/movementTitleColor"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/record_totalDistance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Your total distance "
+        android:textAllCaps="false"
+        android:textSize="35sp"
+        android:textColor="?attr/titleColor"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/record_totalTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Your total time "
+        android:textAllCaps="false"
+        android:textSize="35sp"
+        android:textColor="?attr/titleColor"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/totalDataTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="TOTAL DISTANCE (m)"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="?attr/titleColor"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/record_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="2 exercises"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="?attr/titleColor"
+        android:textSize="15sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Date"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/history_title"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/distance_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Distance"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:background="@drawable/history_title"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/time_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Time"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:background="@drawable/history_title"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
