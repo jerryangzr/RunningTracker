@@ -12,3 +12,13 @@ A detailed project description can be found [here](doc/RunningTracker_descriptio
 ![image](https://github.com/user-attachments/assets/cb8f568c-9816-494e-86a1-2d75a75d4298)
 
 ![image](https://github.com/user-attachments/assets/33d29aa2-a2d8-459b-b7c9-5481b0bfcedb)
+
+![image](https://github.com/user-attachments/assets/cb7ed6b3-7822-4414-af61-994fb9d1517c)
+
+![image](https://github.com/user-attachments/assets/d1023b5e-d965-4a51-9a1f-7c5def906e9a)
+
+![image](https://github.com/user-attachments/assets/bd5cc483-d068-4701-a1d8-e9ae02451879)
+
+![image](https://github.com/user-attachments/assets/25e03de6-dee9-4f49-ac70-51d88712e685)
+
+![image](https://github.com/user-attachments/assets/e5bbbf6e-295f-45ad-a3d1-ee3257a3339a)
